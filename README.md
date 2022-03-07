@@ -12,5 +12,5 @@ Um diferencial neste projeto é:
 - As senhas são armazenadas de forma segura, utilizando a criptografia AES 
 
 # Doações
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=SGFDKFJTTU3JS)
+[![paypal](https://www.paypalobjects.com/pt_BR/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=SGFDKFJTTU3JS)
 
