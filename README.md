@@ -1,4 +1,4 @@
-# CST-TOTP
+# CST-TOTP [![paypal](https://www.paypalobjects.com/pt_BR/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=SGFDKFJTTU3JS)
 Carteira de Senhas Temporais - baseado no algoritmo TOTP - Time-based One-time Password
 
 Este programa é tipo um "google Authenticator", mas para desktop na plataforma windows.
@@ -11,6 +11,5 @@ Um diferencial neste projeto é:
 - Permitir chaves da "steam"
 - As senhas são armazenadas de forma segura, utilizando a criptografia AES 
 
-# Doações
-[![paypal](https://www.paypalobjects.com/pt_BR/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=SGFDKFJTTU3JS)
+
 
