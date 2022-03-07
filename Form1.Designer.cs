@@ -41,6 +41,7 @@ namespace CST___CarteiraSenhasTemporais
             this.pnlCtrls = new System.Windows.Forms.Panel();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.btnSobre = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,6 +53,7 @@ namespace CST___CarteiraSenhasTemporais
             this.panel1.Controls.Add(this.btnImportar);
             this.panel1.Controls.Add(this.btnTrocaSenha);
             this.panel1.Controls.Add(this.btnNovo);
+            this.panel1.Controls.Add(this.btnSobre);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -75,7 +77,7 @@ namespace CST___CarteiraSenhasTemporais
             // 
             this.btnBasic.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnBasic.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnBasic.Location = new System.Drawing.Point(604, 5);
+            this.btnBasic.Location = new System.Drawing.Point(486, 5);
             this.btnBasic.Margin = new System.Windows.Forms.Padding(4);
             this.btnBasic.Name = "btnBasic";
             this.btnBasic.Size = new System.Drawing.Size(118, 41);
@@ -111,7 +113,7 @@ namespace CST___CarteiraSenhasTemporais
             // 
             this.btnTrocaSenha.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnTrocaSenha.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTrocaSenha.Location = new System.Drawing.Point(722, 5);
+            this.btnTrocaSenha.Location = new System.Drawing.Point(604, 5);
             this.btnTrocaSenha.Margin = new System.Windows.Forms.Padding(10);
             this.btnTrocaSenha.Name = "btnTrocaSenha";
             this.btnTrocaSenha.Size = new System.Drawing.Size(118, 41);
@@ -150,6 +152,18 @@ namespace CST___CarteiraSenhasTemporais
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // btnSobre
+            // 
+            this.btnSobre.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnSobre.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnSobre.Location = new System.Drawing.Point(722, 5);
+            this.btnSobre.Margin = new System.Windows.Forms.Padding(10);
+            this.btnSobre.Name = "btnSobre";
+            this.btnSobre.Size = new System.Drawing.Size(118, 41);
+            this.btnSobre.TabIndex = 7;
+            this.btnSobre.Text = "Sobre";
+            this.btnSobre.Click += new System.EventHandler(this.btnSobre_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
@@ -182,5 +196,6 @@ namespace CST___CarteiraSenhasTemporais
         private System.Windows.Forms.Button btnImportar;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.Button btnSobre;
     }
 }

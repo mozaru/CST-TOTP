@@ -279,5 +279,10 @@ namespace CST___CarteiraSenhasTemporais
                     Persistencia.GetInstancia().Exportar(saveFileDialog1.FileName, FrmCriarSenha.LastSenha());
             }
         }
+
+        private void btnSobre_Click(object sender, EventArgs e)
+        {
+            FrmSobre.Executar();
+        }
     }
 }
