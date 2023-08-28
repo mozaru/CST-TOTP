@@ -184,8 +184,15 @@ namespace CST___CarteiraSenhasTemporais
         private void BtnEdit_Click(object? sender, EventArgs e)
         {
             if (sender != null && sender is Button && ((Button)sender).Tag != null && ((Button)sender).Tag is AccessCode)
-                if (FrmCodigoAcesso.Executar((AccessCode)((Button)sender).Tag))
+            {
+                AccessCode c = (AccessCode)((Button)sender).Tag;
+                string nome = c.Name;
+                if (FrmCodigoAcesso.Executar(c))
+                {
+                    Persistencia.GetInstancia().Atualizar(nome, c);
                     Reload();
+                }
+            }
         }
 
         public void CriarEntradas()

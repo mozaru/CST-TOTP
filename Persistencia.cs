@@ -135,6 +135,28 @@ namespace CST___CarteiraSenhasTemporais
             }
         }
 
+
+        public void Atualizar(string nomeOld, AccessCode c)
+        {
+            AccessCode a = null;
+            foreach (var x in _Codes)
+                if (x.Name == nomeOld)
+                    a = x;
+            if (a!=null)
+            {
+                if (a != c)
+                {
+                    a.Name = c.Name;
+                    a.Key = c.Key;
+                    a.Steam = c.Steam;
+                    a.T0 = c.T0;
+                    a.Interval = c.Interval;
+                    a.Digits = c.Digits;
+                    a.Note = c.Note;
+                }
+                Gravar();
+            }
+        }
         public void Adicionar(AccessCode c)
         {
             _Codes.Add(c);
